@@ -1,0 +1,7 @@
+alias ls="eza -la"
+alias cat="bat"
+alias rzsh="source $HOME/.zshrc"
+alias ezsh="vim $HOME/.zshrc"
+alias k="kubectl"
+eval "$(mise activate zsh)"
+eval "$(starship init zsh)"

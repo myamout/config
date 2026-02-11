@@ -1,29 +1,26 @@
 # specify install directory
 cask_args appdir: '/Applications'
-# install packages, languages, and programs
-tap 'caskroom/homebrew-cask' || true
-tap 'caskroom/versions' || true
 
-# Install iTerm2
-cask 'iterm2'
-# Source control and other utilities
-brew 'git'
-brew 'tree'
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
 
-# Applications
-cask 'google-chrome'
-cask 'visual-studio-code'
-cask 'spotify'
-cask 'firefox'
-cask 'intelij-de-ce'
+brew "bat"
+brew "eza"
+brew "broot"
+brew "ffmpeg"
+brew "gh"
+brew "jq"
+brew "mise"
+brew "yq"
+brew "btop"
+brew "awscli"
+brew "starship"
+brew "zoxide"
 
-# Languages
-cask 'java'
-brew 'node'
-brew 'mongodb'
-brew 'python3'
-brew 'go'
-brew 'elasticsearch'
+cask "zen"
+cask "spotify"
+cask "firefox"
+cask "zed"
+cask "ghostty"
 
-# Docker
-cask 'docker'
