@@ -3,5 +3,8 @@ alias cat="bat"
 alias rzsh="source $HOME/.zshrc"
 alias ezsh="vim $HOME/.zshrc"
 alias k="kubectl"
+alias dev="cd $HOME/dev"
+alias statusline="bunx ccstatusline@latest"
+
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"

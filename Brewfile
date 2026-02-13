@@ -23,4 +23,5 @@ cask "spotify"
 cask "firefox"
 cask "zed"
 cask "ghostty"
+cask "claude-code"
 
