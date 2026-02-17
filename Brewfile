@@ -17,6 +17,8 @@ brew "btop"
 brew "awscli"
 brew "starship"
 brew "zoxide"
+brew huseyinbabal/tap/taws
+brew ymtdzzz/tap/otel-tui
 
 cask "zen"
 cask "spotify"
@@ -24,4 +26,3 @@ cask "firefox"
 cask "zed"
 cask "ghostty"
 cask "claude-code"
-
